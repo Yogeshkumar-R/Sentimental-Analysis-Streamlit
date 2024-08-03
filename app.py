@@ -3,7 +3,7 @@ import pandas as pd
 from transformers import pipeline
 
 # Load the pre-trained sentiment analysis model
-sentiment_analysis = pipeline("sentiment-analysis",,model="distilbert/distilbert-base-uncased-finetuned-sst-2-english")
+sentiment_analysis = pipeline("sentiment-analysis",model="distilbert/distilbert-base-uncased-finetuned-sst-2-english")
 
 # Streamlit app layout
 st.title('Sentiment Analysis App')
